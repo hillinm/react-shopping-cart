@@ -1,6 +1,7 @@
 import React from 'react';
+import './Product.css'
 
-const Product = props => {
+const Product = (props) => {
 	return (
 		<div className="product">
 			<img src={props.product.image} alt={`${props.product.title} book`} />
